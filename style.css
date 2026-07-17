@@ -1,0 +1,244 @@
+*{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: wheat;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.cargo {
+    text-align: center;
+    color: black;
+}
+.objetivoprofissional {
+    text-align: center;
+    color: black;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: rgb(141, 73, 0);
+    align-items: center;
+
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome {
+ color: wheat;
+}
+.subtitulo {
+    font-size: 18px;
+    color: wheat;
+
+}
+
+
+.foto {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border: 3px solid #96390e;
+    
+}
+
+.nav-menu {
+    list-style: none;
+    margin-top: 5px;
+    text-decoration: none;
+    text-align: center;
+    
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-menu  ul li {
+    display: inline-block;
+    margin: 10px 10px;
+    text-decoration: none;
+    width: 150px;
+    
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #96390e;
+    
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.objetivo {
+     margin-left: 15px;
+    margin-bottom: 20px;
+    color: black
+    
+}
+
+
+.sobremim {
+   margin-left: 15px;
+    margin-bottom: 20px;
+    color: black
+    
+}
+
+h2 {
+text-align: center;
+margin:20px;
+
+}
+#curiosidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.curiosidades {
+    margin: 20px 15px;
+    color: black;
+}
+
+.curiosidadesimg {
+    border:3px solid rgb(73, 37, 0);
+    border-radius: 15px;
+    border-left: 10px;
+}
+
+.habilidades {
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black    
+
+}
+
+.objetivos {
+     margin-left: 15px;
+     margin-top: 20px;
+    margin-bottom: 20px;
+    color: black
+}
+
+.oqueestouaprendendo {
+    margin-left: 15px;
+     margin-top: 20px;
+    margin-bottom: 20px;
+    color: black
+}
+
+.umpoucosobremim {
+     margin-left: 15px;
+    margin-top: 20px;
+     margin-bottom: 20px;
+    color: black 
+}
+
+.contato {
+     margin-left: 20px;
+    color: black
+}
+
+.product-card:hover{
+    transform: scale(1.02);
+}
+
+#sobremim {
+scroll-margin-top: 30px;
+}
+#curiosidades {
+scroll-margin-top: 65.3px;
+} 
+#habilidades {
+scroll-margin-top: 65.3px;
+}
+#objetivos{
+scroll-margin-top: 20px;
+}
+#umpoucosobremim {
+scroll-margin-top: 5px;
+}
+#contato{
+scroll-margin-top: 65.3px;
+}
+
+#oqueestouaprendendo {
+    scroll-margin-top: 150px;
+}
+
+
+.card {
+    background: #aa7651c9;
+    border-left: 6px solid rgb(73, 37, 0);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,.15);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+/* ==================== RESPONSIVIDADE =================== */
+
+@media (min-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .products {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+    .foto {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .nav-menu ul li {
+        display: block;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    #curiosidades {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .curiosidadesimg {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+
+footer {
+    margin: 25px;
+    margin-left: 20px;
+}
